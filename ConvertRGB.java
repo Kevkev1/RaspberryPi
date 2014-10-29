@@ -1,10 +1,10 @@
 public class ConvertRGB
 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 	return;
     }
 
-    public int[] convert(int[] rgb) {
+    public static int[] convert(int[] rgb) {
 	int[] colors = new int[rgb.length];
 	for(int i=0; i<rgb.length; i++) {
 	    java.awt.Color c = new java.awt.Color(rgb[i]);
